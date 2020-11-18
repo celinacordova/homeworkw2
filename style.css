@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    padding: 20px;
+    background: rgba(0, 0, 0,0.6) !important;
+
+}
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 20px 0px;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover{
+    color: #1ebba3;
+}
+.heading-content{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+.heading-content h5{
+    font-size: 4em;
+    font-weight: 300;
+    color: rgb(77, 81, 82);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.heading-content h1{
+    font-size: 4em;
+    font-weight: bolder;
+    color: rgb(77, 81, 82);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.ProfileItem{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    max-width: 50%;
+}
+
+.section{
+  padding: 0 100px;
+  background: url(bg.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  
+}
+.box{
+  position: absolute;
+  padding: 50px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+
+}
+.box h2{
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: white
+}
+
+.box p{
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 25px;
+  color: white
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid rgb(51, 47, 7); 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical  
+}
+
+
+input[type=submit] {
+  background-color: rgb(240, 235, 227);
+  color: rgb(12, 9, 9);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #3d3306;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f0d190;
+  padding: 20px;
+  
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: transparent;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+ screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
